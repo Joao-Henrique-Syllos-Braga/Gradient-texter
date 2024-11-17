@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(pexels-ryutaro-5745864.jpg);
+  background-size: cover;
+  background-position: 0 ;
+}
+
+.container {
+  background-color: #b1bac145;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+  border: 1px solid rgba(167, 170, 181, 0.351);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.gradient1, .gradient2{
+  border: 1px solid rgba(255, 255, 255, 0.786);
+  background-color: transparent;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.gradient1 {
+  margin-right: 45%;
+}
+
+.gradient2 {
+  margin-left: 45%;
+}
+
+.desgra1, .desgra2 {
+  color: white;
+}
