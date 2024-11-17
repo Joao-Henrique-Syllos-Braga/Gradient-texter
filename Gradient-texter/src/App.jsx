@@ -23,7 +23,6 @@ function App() {
 
         <div className="color" style={{ background: gradiente }}></div>
 
-
         <input 
           className="gradient2" 
           id="cor2" 
